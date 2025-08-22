@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Arishman's Portfolio website - Home</title>
+
+  
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      scroll-behavior: smooth;
+      font-family: 'Roboto', sans-serif;
+      background: #f4f4f4;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    .container {
+      flex: 1;
+    }
+
+    header, footer {
+      background-color: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      border-radius: 0 0 15px 15px; 
+    }
+
+    nav a {
+      color: #ecf0f1;
+      margin: 0 20px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #ffcc00;
+    }
+
+    main {
+      padding: 40px 20px;
+      text-align: center;
+      background: linear-gradient(to bottom, #fefefe, #e6e6e6);
+    }
+
+    
+    main h1 {
+      font-family: 'Poppins', sans-serif;
+      font-size: 40px;
+      color: #34495e;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      margin-bottom: 25px;
+    }
+
+    
+    .profile-pic {
+      width: 220px;
+      height: 220px;
+      border-radius: 50%;
+      object-fit: cover;
+      transition: transform 0.4s ease, box-shadow 0.4s ease;
+      margin-bottom: 25px;
+    }
+
+    .profile-pic:hover {
+      transform: scale(1.12);
+      box-shadow: 0px 10px 20px rgba(0,0,0,0.35);
+    }
+
+    
+    main ul {
+      list-style-type: disc;
+      font-size: 20px;
+      color: #2c3e50;
+      max-width: 650px;
+      margin: 0 auto 40px auto;
+      line-height: 1.8;
+      background: #fff;
+      padding: 20px 35px;
+      border-radius: 15px;
+      box-shadow: 0px 6px 15px rgba(0,0,0,0.1);
+      text-align: left;
+      transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+      font-family: 'Roboto', sans-serif;
+    }
+
+    main ul:hover {
+      transform: scale(1.05);
+      box-shadow: 0px 10px 20px rgba(0,0,0,0.25);
+      background: #fef9f0;
+    }
+
+    footer {
+      border-radius: 15px 15px 0 0; 
+      padding: 15px;
+    }
+
+    footer p {
+      margin: 0;
+      font-size: 16px;
+    }
+
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <h1>ARISHMAN'S PORTFOLIO</h1>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      
+      <h1>About Me</h1>
+      <img src="Images/portfolio.png" 
+           alt="Profile Picture" class="profile-pic">
+      <ul>
+        <li>Hello! I'm Arishman.</li>
+        <li>I'm an undergraduate at University of Moratuwa.</li>
+        <li>Studying Information Technology and Management.</li>
+        <li>This is my personal portfolio website.</li>
+      </ul>
+
+      <h1>My Soft Skills</h1>
+      <ul>
+        <li>Communication</li>
+        <li>Problem-Solving</li>
+        <li>Critical Thinking</li>
+        <li>Creativity</li>
+      </ul>
+      <h1>My Coding Skills</h1>
+      <ul>
+        <li>Web Development(HTML,CSS,JS)</li>
+        <li>Python Developer</li>
+        <li>C</li> 
+      </ul>
+    </main>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Arishman's Portfolio. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
